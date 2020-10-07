@@ -1,0 +1,35 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home-button {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.home-main{
+  color: black;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: coral;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.home-second { 
+  color: black;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("http://www.hereinuk.com/wp-content/uploads/2017/07/1-99.jpg");
+}

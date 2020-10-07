@@ -1,0 +1,33 @@
+.home-button {
+  background-color: blue;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.home-main {
+  color: black;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: coral;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQGdfhirOt8b5g/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=eG-ePcdk_WuatnE0N_E8bZIyCqNnOr7sMULWzZNezRI");
+}
+
+.home-second {
+  color: black;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: pink;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("http://www.hereinuk.com/wp-content/uploads/2017/07/1-99.jpg");
+}

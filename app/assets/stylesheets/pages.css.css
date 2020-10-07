@@ -18,7 +18,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQGdfhirOt8b5g/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=eG-ePcdk_WuatnE0N_E8bZIyCqNnOr7sMULWzZNezRI");
 }
 
 .home-second {
@@ -30,4 +29,11 @@
   background-size: contain;
   background-position: center;
   background-image: url("http://www.hereinuk.com/wp-content/uploads/2017/07/1-99.jpg");
+}
+
+.simple-menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }

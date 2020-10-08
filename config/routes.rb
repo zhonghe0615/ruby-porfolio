@@ -54,5 +54,10 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   get "about", to: "pages#about"
+  get "signups/new", to: 'signups#new'
+  get "thanks", to: 'pages#thanks'
+  
   root "pages#home"
+  resource :signups
+
 end

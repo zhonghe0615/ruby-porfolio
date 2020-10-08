@@ -1,0 +1,14 @@
+    <div class="signup-main" style="background-size: contain; background-position: center; background-repeat:no-repeat;background-image=url("https://scontent-sea1-1.xx.fbcdn.net/v/t31.0-8/25394785_2135439853351405_8640385853592303977_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=2Qw1wlB60BwAX8GkyCn&_nc_ht=scontent-sea1-1.xx&oh=e6426aff11c5a0c112367c1066201db2&oe=5FA5FD92")">
+     <div class="jumbotron">
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>Receive weekly insights from industry insiders.</p>
+    
+        <%= form_for(@signup) do |f| %>
+          <%= f.text_field :firstname, :placeholder => "First Name" %>
+          <%= f.text_field :email, :placeholder => "Email" %>
+          <%= f.submit  "Signup", :class => "btn btn-primary" %>
+        <% end %>
+
+      </div>
+    </div>
